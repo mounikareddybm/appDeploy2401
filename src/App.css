@@ -1,38 +1,58 @@
 .App {
   text-align: center;
+  
+}
+body{
+  background-image: url("https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.webp?b=1&s=170667a&w=0&k=20&c=tI2xFhXqXFqMM0IvxSYY3F7LIwv450h2ch3yD-lZ9HU=");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form{
+  display: inline-block;
+  color:white;
+  font-size: 1.5rem;
+  padding: 5px;
+  border: 2px solid white;
+}
+form label{
+  display: inline-block;
+  width: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form div{
+  margin: 15px;
+}
+.image{
+  height: 200px;
+  width: 200px
+}
+.profilePic{
+  height:200px;
+  width:200px;
+  border-radius: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
+  background-color: gold;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+a {
+  font-size: 1.5rem;
+}
+h2{
+  background-color: whitesmoke;
+  color: crimson;
+  display: inline-block;
+  border-radius: 10px;
+  font-family: cursive;
+}
+h1{
+  color: deeppink;
+}
+button{
+  background-color:green;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
